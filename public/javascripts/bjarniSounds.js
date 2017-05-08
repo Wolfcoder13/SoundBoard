@@ -1,8 +1,15 @@
 document.getElementById("bjarni1").addEventListener("click", playBjarni1);
+document.getElementById("bjarni2").addEventListener("click", playBjarni2);
 
 function playBjarni1() {
     var path = "..\\sounds\\"
     var snd = new Audio(path + "bjarni1.mp3");
+    snd.play();
+}
+
+function playBjarni2() {
+    var path = "..\\sounds\\"
+    var snd = new Audio(path + "bjarni2.mp3");
     snd.play();
 }
 
