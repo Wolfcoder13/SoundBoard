@@ -1,7 +1,27 @@
-doctype html
+doctype
 html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    block content
+    header
+      nav
+        ul
+          li
+            a(href="/") Home
+          li
+            a(href="/andri_sound") Andri's Soundboard
+          li
+            a(href="/birgir_sound") Birgir's Soundboard
+          li
+            a(href="/bjarni_sound") Bjarni's Soundboard
+          li
+            a(href="/bjartur_sound") Bjartur's Soundboard
+          li
+            a(href="/olgeir_sound") Olgeir's Soundboard
+
+    section#wrapper
+      block content
+      footer
+      script(src="/javascripts/main.js")
+      block script
