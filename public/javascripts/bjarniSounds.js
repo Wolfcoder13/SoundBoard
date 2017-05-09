@@ -5,6 +5,8 @@ document.getElementById("bjarni4").addEventListener("click", playBjarni4);
 document.getElementById("bjarni5").addEventListener("click", playBjarni5);
 document.getElementById("bjarni6").addEventListener("click", playBjarni6);
 document.getElementById("bjarni7").addEventListener("click", playBjarni7);
+document.getElementById("bjarni8").addEventListener("click", playBjarni8);
+document.getElementById("bjarni9").addEventListener("click", playBjarni9);
 
 function playBjarni1() {
     var path = "..\\sounds\\"
@@ -45,6 +47,18 @@ function playBjarni6() {
 function playBjarni7() {
     var path = "..\\sounds\\"
     var snd = new Audio(path + "bjarni - please.mp3");
+    snd.play();
+}
+
+function playBjarni8() {
+    var path = "..\\sounds\\"
+    var snd = new Audio(path + "Bjarni-VOOAAA.mp3");
+    snd.play();
+}
+
+function playBjarni9() {
+    var path = "..\\sounds\\"
+    var snd = new Audio(path + "Bjarni-Biggi.mp3");
     snd.play();
 }
 
