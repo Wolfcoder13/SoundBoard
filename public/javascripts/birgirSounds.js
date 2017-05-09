@@ -70,7 +70,7 @@ function playBirgir10() {
     snd.play();
 }
 
-function playBirgir10() {
+function playBirgir11() {
     var path = "..\\sounds\\"
     var snd = new Audio(path + "Birgir-goldenVoice.mp3");
     snd.play();
