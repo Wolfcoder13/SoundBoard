@@ -7,6 +7,8 @@ document.getElementById("birgir6").addEventListener("click", playBirgir6);
 document.getElementById("birgir7").addEventListener("click", playBirgir7);
 document.getElementById("birgir8").addEventListener("click", playBirgir8);
 document.getElementById("birgir9").addEventListener("click", playBirgir9);
+document.getElementById("birgir10").addEventListener("click", playBirgir10);
+document.getElementById("birgir11").addEventListener("click", playBirgir11);
 
 function playBirgir1() {
     var path = "..\\sounds\\"
@@ -59,6 +61,18 @@ function playBirgir8() {
 function playBirgir9() {
     var path = "..\\sounds\\"
     var snd = new Audio(path + "Birgir-orgasm.mp3");
+    snd.play();
+}
+
+function playBirgir10() {
+    var path = "..\\sounds\\"
+    var snd = new Audio(path + "Birgir-nobb.mp3");
+    snd.play();
+}
+
+function playBirgir10() {
+    var path = "..\\sounds\\"
+    var snd = new Audio(path + "Birgir-goldenVoice.mp3");
     snd.play();
 }
 
