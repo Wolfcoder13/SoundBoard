@@ -22,7 +22,7 @@ body {
   padding: 0 0;
 }
 h2 {
-  display: flex;
+  text-align: center;
 }
 nav {
   width: 100%;
