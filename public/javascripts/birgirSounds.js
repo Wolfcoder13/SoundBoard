@@ -9,6 +9,7 @@ document.getElementById("birgir8").addEventListener("click", playBirgir8);
 document.getElementById("birgir9").addEventListener("click", playBirgir9);
 document.getElementById("birgir10").addEventListener("click", playBirgir10);
 document.getElementById("birgir11").addEventListener("click", playBirgir11);
+document.getElementById("birgir12").addEventListener("click", playBirgir12);
 
 function playBirgir1() {
     var path = "..\\sounds\\"
@@ -73,6 +74,12 @@ function playBirgir10() {
 function playBirgir11() {
     var path = "..\\sounds\\"
     var snd = new Audio(path + "Birgir-goldenVoice.mp3");
+    snd.play();
+}
+
+function playBirgir12() {
+    var path = "..\\sounds\\"
+    var snd = new Audio(path + "Birgir-hnerr.mp3");
     snd.play();
 }
 
